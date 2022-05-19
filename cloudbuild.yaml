@@ -7,7 +7,7 @@ args: ['push', 'gcr.io/$PROJECT_ID/github.com/smoralesv/cloud_run_image_smorales
 args:
 - 'run'
 - 'deploy'
-- 'cloudrunservice-buildjoiscadz'
+- 'cloudrunservice-buildsmoralesv'
 - '--image'
 - 'gcr.io/$PROJECT_ID/github.com/smoralesv/cloud_run_image_smoralesv:$COMMIT_SHA'
 - '--region'
